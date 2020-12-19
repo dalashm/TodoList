@@ -1,0 +1,47 @@
+.completed {
+	text-decoration: line-through;
+}
+
+.Todo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ul {
+	list-style: none;
+}
+li {
+	order: -1;
+	flex-basis: 67%;
+	background-color: transparent;
+	padding: 8px;
+	margin-bottom: 50px;
+	background-color: #f8f7f7;
+	border: 1px solid rgb(14, 235, 243);
+	border-radius: 11px;
+	margin-left: -19px;
+	text-align: center;
+	letter-spacing: 3px;
+	word-spacing: 3px;
+}
+
+div:nth-of-type(2n) li {
+	background-color: transparent;
+}
+.Todo button {
+	flex-basis: 23%;
+	margin-bottom: 50px;
+	border: 1px solid transparent;
+	border-radius: 9px;
+	height: 35px;
+	background-color: rgb(179, 28, 28);
+}
+.Todo button:focus {
+	outline: none;
+	background-color: rgb(211, 56, 56);
+}
+
+i {
+	color: #ffffff;
+	font-size: 15px;
+}
